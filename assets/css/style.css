@@ -78,3 +78,49 @@ p {
 #header .navbar-toggler:focus {
     box-shadow: none;
 }
+
+/*===== HOME CSS =====*/
+.home .home-banner-1,
+.home .home-banner-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 650px;
+    position: relative;
+}
+
+.home .home-banner-1 {
+    background-image: url(../images/slide1.jpg);
+}
+
+.home .home-banner-2 {
+    background-image: url(../images/slide2.jpg);
+}
+
+.home .home-banner .home-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+}
+
+.home .home-banner .home-banner-text h1 {
+    font-size: 6rem;
+}
+
+.home .carousel-indicators [data-bs-target] {
+    background-color: var(--bg-danger);
+    width: 2.5rem;
+    height: 0.313rem;
+}
+
+.home .carousel-control-next-icon,
+.home .carousel-control-prev-icon {
+    background: transparent;
+}
+
+.home .slider-icon {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--text-danger);
+}
