@@ -51,6 +51,7 @@ p {
 
 .btn-danger:hover {
     color: var(--text-danger);
+    background: transparent;
 }
 
 /*===== NAVIGATION CSS =====*/
