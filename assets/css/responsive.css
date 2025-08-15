@@ -9,6 +9,11 @@
         transform: translate(-80%, -50%);
     }
 
+    /* Offer CSS */
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 3rem;
+    }
+
     /* Special CSS */
 }
 
@@ -47,9 +52,7 @@
     .home .slider-icon {
         font-size: 2rem;
     }
-
-    /* Offers CSS */
-
+    
     /* Product CSS */
 
     /* Special CSS */
