@@ -385,3 +385,23 @@ p {
 .special .countdown-container .countdown-counter li span {
     font-weight: 500;
 }
+
+.special .countdown-container .countdown-price del {
+    color: var(--text-gray);
+    font-size: 1rem;
+}
+
+.special .special-img span {
+    background: var(--bg-danger);
+    border-radius: 0.313rem;
+    color: var(--text-white);
+    font-size: 0.813rem;
+    letter-spacing: 0.125rem;
+    line-height: 1.563rem;
+    padding: 0.125rem 0.813rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 1rem;
+    top: 1.188rem;
+    z-index: 99;
+}
