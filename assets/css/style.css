@@ -269,3 +269,42 @@ p {
     top: 1.188rem;
     z-index: 99;
 }
+
+.product-list .product-name h3 {
+    font-size: 1.125rem;
+    color: var(--text-black);
+    transition: all 0.3s ease 0s;
+}
+
+.product-list .product-name h3:hover {
+    color: var(--text-danger);
+}
+
+.product-list .product-name .amount {
+    color: var(--text-danger);
+    font-weight: 500;
+}
+
+.product-list .product-name .amount del {
+    color: var(--text-gray);
+}
+
+.product-list .product-name .ti-star {
+    color: var(--text-gray);
+}
+
+.product-list .product-name .ti-star.active {
+    color: var(--text-danger);
+}
+
+.product-list .product-name .add_to_card {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease 0;
+}
+
+.product-list .product-name .add_to_card:hover {
+    color: var(--text-danger);
+}
