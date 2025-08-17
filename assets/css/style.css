@@ -511,3 +511,13 @@ p {
     outline: none;
     border: none;
 }
+
+/*===== FOOTER CSS =====*/
+.copyright {
+    background: var(--bg-danger);
+}
+
+.copyright p,
+.copyright a {
+    color: var(--text-white);
+}
